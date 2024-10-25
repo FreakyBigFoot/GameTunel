@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+<<<<<<< HEAD
 # Logs
 logs
 *.log
@@ -128,3 +130,11 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+=======
+dist/
+node_modules/
+>>>>>>> 3c15e4d (Updated .gitignore and removed dist and node_modules from tracking)
+=======
+/dist/
+/node_modules/
+>>>>>>> 90e46d7 (Update .gitignore to exclude dist and node_modules)

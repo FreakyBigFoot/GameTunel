@@ -1,0 +1,19 @@
+{
+  "name": "game-server-bridge",
+  "version": "1.0.0",
+  "description": "An app to bridge game servers with WireGuard rules",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "npx @electron/packager . GameServerBridge --platform=win32 --arch=x64 --out=dist --overwrite"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  },
+  "devDependencies": {
+    "electron": "^26.2.0",
+    "@electron/packager": "^18.3.5"
+  }
+}
